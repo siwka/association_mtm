@@ -1,0 +1,11 @@
+<h1>All Students</h1>
+
+<p>We have total of <%= @students.count %> students.</p>
+
+<ol class="students">
+	<% @students.each do |student| %>
+		<li> <%= student["first_name"] %> <%= student["last_name"] %>, <%= student["grade"] %></li>
+	<% end %>
+</ol>	
+
+
