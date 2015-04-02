@@ -1,4 +1,5 @@
 QUESTION 2
+
 Create a Many-to-Many relationship
 Create two models connected by a many-to-many relationship using has_many through
 
